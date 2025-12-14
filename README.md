@@ -96,8 +96,8 @@ npm run dev
 - Company-specific interview simulations
 
 ##👩‍💻 Author
-Sapna Mehar
-IT Student | Frontend Developer | UI/UX Designer
+
+**Sapna Mehar** - IT Student | Frontend Developer | UI/UX Designer
 
 GitHub: https://github.com/sapnamehar6264
 
