@@ -95,7 +95,7 @@ npm run dev
 - Multi-language interview support
 - Company-specific interview simulations
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 **Sapna Mehar** - IT Student | Frontend Developer | UI/UX Designer
 
