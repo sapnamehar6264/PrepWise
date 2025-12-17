@@ -9,7 +9,7 @@ export async function POST(request: Request) {
   const safeAmount = amount ?? 5;
   try {
     const { text: questions } = await generateText({
-      model: google("gemini-1.5-turbo"),
+      model: google("gemini-1.5"),
       prompt: `Prepare questions for a job interview.
         The job role is ${role}.
         The job experience level is ${level}.
