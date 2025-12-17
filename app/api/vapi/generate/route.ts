@@ -25,13 +25,24 @@ export async function POST(request: Request) {
     `,
     });
 
+    let parsedQuestions: string[];
+
+    try {
+      parsedQuestions = JSON.parse(questions);
+    } catch {
+      parsedQuestions = questions
+      .split("\n")
+      .map(q => q.replace(/^[\d\-\.\)]\s*/, ""))
+      .filter(Boolean);
+    }
+
     const interview = {
       role: role,
       type: type,
       level: level,
       techstack: techstack.split(","),
-      questions: JSON.parse(questions),
-      userId: userid,
+      questions: parsedQuestions,
+      userId: userid ?? "anonymous",
       finalized: true,
       coverImage: getRandomInterviewCover(),
       createdAt: new Date().toISOString(),
