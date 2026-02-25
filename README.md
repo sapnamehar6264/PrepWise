@@ -6,6 +6,12 @@ This project is designed with a strong focus on **clean UI/UX**, **smooth interv
 
 ---
 
+## 🚧 Project Status
+
+This project is currently under active development. 
+The core interview flow, authentication, and AI integration are functional. 
+Multi-turn conversational refinement and response chaining improvements are in progress.
+
 ## 🚀 Features
 
 - 🔐 **Authentication** – Secure sign up and login using Firebase
@@ -48,7 +54,7 @@ public/
 
 ### Prerequisites
 Make sure you have:
-- Node.js
+- Node.js (v18 or later recommended)
 - npm or yarn
 - Git
 
