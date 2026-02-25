@@ -9,8 +9,8 @@ This project is designed with a strong focus on **clean UI/UX**, **smooth interv
 ## 🚀 Features
 
 - 🔐 **Authentication** – Secure sign up and login using Firebase
-- 🎤 **AI Mock Interviews** – Conduct interviews with AI voice/text-based interviewers
-- 🧠 **Smart Question Generation** – Interview questions generated based on role, level, and tech stack
+- 🎤 **AI Mock Interviews** – Role-based AI interview sessions with interactive question flow
+- 🧠 **Smart Question Generation** – AI-generated interview questions based on selected role and skills
 - 📊 **AI Feedback & Scoring** – Detailed feedback with category-wise scoring
 - 📋 **Interview Dashboard** – View, manage, and track all interview attempts
 - 🔁 **Retake Interviews** – Practice interviews multiple times for improvement
@@ -88,6 +88,12 @@ FIREBASE_PRIVATE_KEY=
 ```bash
 npm run dev
 ```
+## ⚠️ Current Limitations
+
+- Ongoing improvements in multi-turn AI conversation handling
+- Voice workflow optimization in progress
+- Performance tuning for low-latency response delivery
+
 ## 📈 Future Enhancements
 - Real-time voice emotion analysis
 - Resume-based interview personalization
